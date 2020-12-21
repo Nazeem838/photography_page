@@ -1,0 +1,104 @@
+body 
+{
+    background-image: url(https://lh3.googleusercontent.com/proxy/103YgBpz3aZRaRZfaQjuELbXixHRpPv-Bu4G7_CUlL4xIadI2ijAIPJrKqwzZTyuT9oEtDXlKr0aE_5_MeiPMwM_vDOSYbXS1g=w3840-h2160-p-k-no-nd-mv);
+    background-size: 1550px 1280px;
+    background-repeat: no-repeat;
+    font-family: Papyrus;
+}
+hr
+{
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ff2f2f;
+}
+.container
+{
+    border: 5px solid grey;
+    background-image: url(https://www.itl.cat/pngfile/big/16-164654_1080x-1920-image-hd-vertical-hd-desktop-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 1100px;
+    color: white;
+    text-align:left;
+    padding: 40px;
+    height: 1100px;
+    width: 50%;
+    size:auto;
+    margin:auto;
+}
+*{
+  box-sizing: border-box;
+}
+p,h2,h3,h4,h6 { color: white; }
+
+h1
+{
+    color: white;
+    text-align: center;
+}
+
+
+input[id=name], input[id=address], input[id=code]
+{
+    border: none;
+    border-bottom: 2px solid #ff5b5b;
+    border-radius: 5px;
+    margin: 3px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding:8px;
+}
+
+input[type=submit]
+{
+    padding:8px;
+    border-radius:8px;
+    background-color: #397f92;
+    cursor:pointer;
+    color: white;
+}
+input[type=submit]:hover
+{
+    background-color: white;
+    color:black;
+}
+select[class=first], select[class=second], select[class=third]
+{
+    border-radius:9px;
+    border: 1px solid #ff2f2f; 
+    padding:8px;
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100px;
+    color: white;
+}
+input[type=radio]
+{
+    cursor:pointer;
+}
+
+.social
+{
+    padding: 15px;
+    margin-left: 375px;
+}
+
+.social
+{
+    border: 5px solid grey;
+    background-color: #397f92;
+    margin-top: 7px;
+    padding-left: 240px;
+    width: 750px;
+    background-size: 100px;
+}
+.social a
+{
+    color: white;
+    font-size: 24px;
+    padding: 0px 15px;
+    font-family: sans-serif;
+}
+.social a:hover
+{
+    color: black;
+}
